@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+
+.jaro-<uniquifier> {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+.body{
+    font-family: "Jaro", sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: #eee;
+}
+.menu-bar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(37, 37, 236);
+    font-family: "Jaro", sans-serif;
+}
+.menu-bar .logo{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 70px;
+    
+}
+.menu-bar .logo i{
+    position: absolute;
+    width: 50px;
+    font-size: 30px;
+    top: 30%;
+    color: #eee;
+    margin-left: 18px;
+}
+.menu-bar .logo  p {
+    color: #eee;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.menu{
+    width: 50%;
+    height: 70px;
+    
+}
+.menu ul{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #eee;
+    padding: 18px;
+    font-size: 20px;
+}
+.menu ul li a input{
+    border: 0;
+    outline: none;
+    background: none;
+    font-family: "Jaro", sans-serif;
+    color: #eee;
+    font-size: 20px;
+}
+.box-contain{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    width: 90%;
+    position: relative;
+}
+.txt{
+    width: 50%;
+    font-family: "Jaro", sans-serif;
+}
+.tag-txt {
+    width: 100%;
+    height: 80px;
+    background-color:orange;
+    border-radius: 10px;
+
+}
+.tag-txt h1{
+    color: black;
+    font-family: "Jaro", sans-serif;
+    font-size: 60px;
+    margin-left: 10px;
+}
+.txt h2{
+    color: blue;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.txt p{
+    color:black;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.img-contain{
+    width: 50%;
+}
+.img-contain img {
+    width: 100%;
+    object-fit: cover;
+}
+.btn{
+    position: absolute;
+    margin-top: 10px;
+    bottom: -70px;
+    left: 0;
+}
+.btn button{
+    background-color: rgba(9, 9, 254, 0.778);
+    width: 200px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Jaro", sans-serif;
+    color: #eee;
+}
+.txt-decribe{
+    background-color: #eee;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.txt-decribe h1{
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Jaro", sans-serif;
+}
+.cover-box{
+    width: 100%;
+    background-color: #eee;
+    margin: auto;
+    display: flex;
+    gap: 0.5%;
+    flex-wrap: wrap;
+    
+}
+.box{
+    display: block;
+    width: 24.5%;
+    height: 800px;
+    margin-top: 10px;
+}
+.box .box-img{
+    width: 100%;
+    height: 40%;
+    
+}
+.box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box-txt p{
+    font-size: 20px;
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+}
+.box1{
+    margin-top: 10px;
+    width: 24.5%;
+    height: 900px;
+}
+.box1 .box1-img{
+    width: 100%;
+    height: 15%;
+   
+    
+}
+.box1 .box1-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box-txt h2{
+    font-size: 40px;
+    align-items: center;
+    font-family: "Jaro", sans-serif;
+}
+.last-page{
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+    background-color: #eee;
+    margin-top: 100px;
+   
+}
+.sn-box1{
+    display: flex;
+    gap: 1%;
+}
+.sn-box{
+    display: block;
+    width: 24%;
+    height: 150px;
+}
+.sn-box h2{
+    font-size: 30px;
+    color: black;
+    font-family: "Jaro", sans-serif;
+    
+}
+.sn-box a{
+    text-decoration: none;
+}
+.sn-box a p{
+    font-family: "Source Code Pro", monospace;
+    text-decoration: none;
+    padding-top: 9px;
+    color: blue;
+}
+ .last-page .policy  p{
+    color:black;
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    margin-top: 20px;
+}
+.sn-box2{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.sn-box3{
+    width: 70%;
+}
+.sn-box3 .logo{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    
+}
+.sn-box3 .logo i{
+    position: absolute;
+    width: 50px;
+    font-size: 30px;
+    top: 30%;
+    color:blue;
+    margin-left: 18px;
+}
+.sn-box3 .logo  p {
+    color: blue;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: "Jaro", sans-serif;
+}
+.sn-box4{
+    width: 30%;
+}
+.sn-box4 ul{
+    display: flex;
+    align-items: end;
+    list-style-type: none;
+}
+.sn-box4 ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 9px;
+    font-size: 30px;
+    color: blue;
+}

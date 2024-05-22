@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practie by muny.css">
+    <link rel="stylesheet" href="icon/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+
+.jaro-<uniquifier> {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+.body{
+    font-family: "Jaro", sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: #eee;
+}
+.menu-bar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(37, 37, 236);
+    font-family: "Jaro", sans-serif;
+}
+.menu-bar .logo{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 70px;
+    
+}
+.menu-bar .logo i{
+    position: absolute;
+    width: 50px;
+    font-size: 30px;
+    top: 30%;
+    color: #eee;
+    margin-left: 18px;
+}
+.menu-bar .logo  p {
+    color: #eee;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.menu{
+    width: 50%;
+    height: 70px;
+    
+}
+.menu ul{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #eee;
+    padding: 18px;
+    font-size: 20px;
+}
+.menu ul li a input{
+    border: 0;
+    outline: none;
+    background: none;
+    font-family: "Jaro", sans-serif;
+    color: #eee;
+    font-size: 20px;
+}
+.box-contain{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    width: 90%;
+    position: relative;
+}
+.txt{
+    width: 50%;
+    font-family: "Jaro", sans-serif;
+}
+.tag-txt {
+    width: 100%;
+    height: 80px;
+    background-color:orange;
+    border-radius: 10px;
+
+}
+.tag-txt h1{
+    color: black;
+    font-family: "Jaro", sans-serif;
+    font-size: 60px;
+    margin-left: 10px;
+}
+.txt h2{
+    color: blue;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.txt p{
+    color:black;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.img-contain{
+    width: 50%;
+}
+.img-contain img {
+    width: 100%;
+    object-fit: cover;
+}
+.btn{
+    position: absolute;
+    margin-top: 10px;
+    bottom: -70px;
+    left: 0;
+}
+.btn button{
+    background-color: rgba(9, 9, 254, 0.778);
+    width: 200px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: "Jaro", sans-serif;
+    color: #eee;
+}
+.txt-decribe{
+    background-color: #eee;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.txt-decribe h1{
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Jaro", sans-serif;
+}
+.cover-box{
+    width: 100%;
+    background-color: #eee;
+    margin: auto;
+    display: flex;
+    gap: 0.5%;
+    flex-wrap: wrap;
+    
+}
+.box{
+    display: block;
+    width: 24.5%;
+    height: 800px;
+    margin-top: 10px;
+}
+.box .box-img{
+    width: 100%;
+    height: 40%;
+    
+}
+.box .box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box-txt p{
+    font-size: 20px;
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+}
+.box1{
+    margin-top: 10px;
+    width: 24.5%;
+    height: 900px;
+}
+.box1 .box1-img{
+    width: 100%;
+    height: 15%;
+   
+    
+}
+.box1 .box1-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box-txt h2{
+    font-size: 40px;
+    align-items: center;
+    font-family: "Jaro", sans-serif;
+}
+.last-page{
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+    background-color: #eee;
+    margin-top: 100px;
+   
+}
+.sn-box1{
+    display: flex;
+    gap: 1%;
+}
+.sn-box{
+    display: block;
+    width: 24%;
+    height: 150px;
+}
+.sn-box h2{
+    font-size: 30px;
+    color: black;
+    font-family: "Jaro", sans-serif;
+    
+}
+.sn-box a{
+    text-decoration: none;
+}
+.sn-box a p{
+    font-family: "Source Code Pro", monospace;
+    text-decoration: none;
+    padding-top: 9px;
+    color: blue;
+}
+ .last-page .policy  p{
+    color:black;
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    margin-top: 20px;
+}
+.sn-box2{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.sn-box3{
+    width: 70%;
+}
+.sn-box3 .logo{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    
+}
+.sn-box3 .logo i{
+    position: absolute;
+    width: 50px;
+    font-size: 30px;
+    top: 30%;
+    color:blue;
+    margin-left: 18px;
+}
+.sn-box3 .logo  p {
+    color: blue;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: "Jaro", sans-serif;
+}
+.sn-box4{
+    width: 30%;
+}
+.sn-box4 ul{
+    display: flex;
+    align-items: end;
+    list-style-type: none;
+}
+.sn-box4 ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 9px;
+    font-size: 30px;
+    color: blue;
+}
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="menu-bar">
+            <div class="logo">
+                <i class="fa-solid fa-laptop"></i>
+                <p>Digital Education</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Classes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Project
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <input type="button" value="Login">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box-contain">
+            <div class="txt">
+                <div class="tag-txt">
+                    <h1>Programming</h1>
+                </div>
+                <h2>Courses List</h2>
+                <p>
+                    1. <u>Basic:</u> C/C++.<br><br>
+                    2. <u>Web Design:</u> html css javascript. <br><br>
+                    3. <u>Framwork: </u> bootstrab jQuery. <br><br>
+                    4. <u>Web Dev: </u> PHP and SQL 
+                </p>
+            </div>
+            <div class="img-contain">
+                <a href="">
+                    <img src="undraw_programming_re_kg9v.svg" alt="">
+                </a>
+            </div>
+            <div class="btn">
+                <button type="button">Get Start</button>
+            </div>
+        </div>
+        <div class="txt-decribe">
+            <h1>Our Course</h1>
+            <div class="cover-box">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="HTML5.png" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <p>
+                            HyperText Markup Language (HTML) is language
+                             for creating web pages and web applications.
+                              Web browsers receive HTML documents from a 
+                              webserver or from local storage and render them 
+                              into multimedia web pages. HTML describes the
+                               structure of a web page semantically and originally
+                                included cues for the appearance of the document.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="CSS3.png" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <p>
+                            Cascading Style Sheets (CSS) is a language used for describing the presentation of a document written in HTML. Although most often used to set the visual style of web pages and user interfaces written in HTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="Javascript.png" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <p>
+                            JavaScript is a high-level, dynamic, untyped, and interpreted programming language. JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, supporting object-oriented, imperative, and functional programming styles. It has an API for working with text, arrays, dates and regular expressions.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="JQuery.png" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <p> jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. jQuery is the most popular JavaScript library in use today, with installation on 65% of the top 10 million highest-trafficked sites on the Web. jQuery is free, open-source software licensed under the MIT License.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="Boostrap.png" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <p>
+                            Bootstrap is a free and open-source front-end web framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="PHP.png" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <p>
+                            PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="sql.png" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <p>
+                            Structured query language (SQL) is a programming language for storing and processing information in a relational database. A relational database stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.
+                        </p>
+                    </div>
+                </div>
+                <div class="box1">
+                    <div class="box1-img">
+                        <img src="Taining Course.jpg" alt="">
+                    </div>
+                    <div class="box-txt">
+                        <h2>In this course, you will get these benefits:</h2>
+                        <p>* Learn professional website tools and best practices.
+                            * Build a fully functional HTML design
+                            * Style web pages using CSS
+                            * Build a mobile-friendly responsive website in a Bootstrap
+                            * Using JavaScript to create, interactive elements for web pages
+                            * Increase jQuery and jQuery UI skills
+                            * In-depth working experience on Basic & Advanced MySQL
+                            * Basic & Advanced Operations using PHP, practical projects with PHP
+                            * A complete step-by-step website creation guidance
+                            * Work as a freelance web developer
+                            * Become a Full-Stack Back-End Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last-page">
+            <div class="sn-box1">
+                <div class="sn-box">
+                    <h2>Individual</h2>
+                    <a href="">
+                        <p>Vong</p>
+                    </a>
+                </div>
+                <div class="sn-box">
+                    <h2>Contact Us</h2>
+                    <a href="">
+                        <p>bhanhavong21@gmail.com</p>
+                    </a>
+                    <a href="">
+                        <p>Jion Our Telegram</p>
+                    </a>
+                    <a href="">
+                        <p>YouTube</p>
+                    </a>
+                </div>
+                <div class="sn-box">
+                    <h2>Videos</h2>
+                    <a href="">
+                        <p>C Programming</p>
+                    </a>
+                    <a href="">
+                        <p>C++ Programming</p>
+                    </a>
+                    <a href="">
+                        <p>Html,Css,JavaScript</p>
+                    </a>
+                </div>
+                <div class="sn-box">
+                    <h2>Social Media</h2>
+                    <a href="">
+                        <p>Facebook</p>
+                    </a>
+                    <a href="">
+                        <p>Telegram</p>
+                    </a>
+                    <a href="">
+                        <p>YouTube</p>
+                    </a>
+                </div>
+            </div>
+            <div class="policy">
+                <p>
+                    Digital EDU KH 2024. All rights reserved
+                </p>
+            </div>
+            <div class="sn-box2">
+                <div class="sn-box3 ">
+                    <div class="logo">
+                        <i class="fa-solid fa-laptop"></i>
+                        <p>Digital Education</p>
+                    </div>
+                </div>
+                <div class="sn-box4">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
