@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 1250px;
+    margin: auto;
+
+    
+}
+.menu-bar{
+    background-color: whitesmoke;
+    width:100% ;
+    height: 50px;
+    padding: 9px;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    
+}
+.logo{
+    position: absolute;
+    width: 30%;
+    height: 50px;
+    right: 65%;
+
+}
+
+.logo img{
+    
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+
+    
+    
+}
+.menu ul li a:hover{
+    background-color: gray;
+    height: 10px;
+}
+.box-infor{
+    width: 920px;
+    margin: auto;
+    padding: 18px;
+    
+}
+.img-box{
+    width: 720px;
+    height: 250px;
+    margin: auto;
+    
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.text1{
+    width: 702px;
+    height: 282px;
+    margin: auto;
+    padding: 9px;
+    position: relative;
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text1-1{
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+}
+.text1-1 h1{
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+
+}
+.style{
+    width: 100px;
+    height: 5px;
+    border-radius: 15px;
+    margin: auto;
+}
+.text1-2 {
+    width: 400px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    
+}
+.sn{
+    width:910px ;
+    height: 200px;
+    margin: auto;
+    padding: 9px;
+
+}
+.text-sn{
+    width: 300px;
+    margin: auto;
+}
+.logo-sn{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    
+
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.sn-item img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.last-page{
+    background-color:#273746  ;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.logo-page{
+    
+    width: 30%;
+    height: 200px;
+    position: relative;
+
+}
+.logo1{
+    
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+}
+.logo1 img{
+    width: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.mail{
+    width: 250px;
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+.menu-page ul{
+    width: 200px;
+    list-style-type: none;
+    position: absolute;
+    top: 12px;
+    left: 40%;
+    
+
+}
+.menu-page p{
+    color: #85929E;
+}
+.mail p{
+    color:#FDFEFE ;
+}
+.menu-page ul li a{
+    color: #FDFEFE;
+    text-decoration: none;
+}
+.item-sn{
+    
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 70%;
+}
+.text2{
+    
+    margin: auto;
+    width: 70px;
+}
+.text2 p{
+    color: #85929E;
+
+}
+.item-sn1{
+    
+    width: 200px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.sn1{
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    
+}
+.sn1 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
